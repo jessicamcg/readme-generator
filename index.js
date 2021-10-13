@@ -37,7 +37,7 @@ const questions = [
         name: 'test'
       },
       {
-        type: 'rawlist',
+        type: 'list',
         message: 'Which license is the application covered under?',
         name: 'license',
         choices: [
@@ -52,7 +52,9 @@ const questions = [
             'GNU Affero General Public License 3.0',
             'GNU General Public License 2.0',
             'Mozilla Public License 2.0',
-            'The Unlicense']
+            'The Unlicense',
+            'None'
+          ]
       },
       {
         type: 'input',
@@ -71,7 +73,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(data) {
     fs.writeFile('sampleREADME.md', generateMarkdown(data), (err) =>
-       err ? console.error(err) : console.log('Success!'));
+       err ? console.error(err) : console.log('Successfully made new readme.md file'));
 }
 
 
@@ -80,7 +82,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((response) =>{
-            console.log(response);
+            // console.log(response);
             writeToFile(response);
         });
 };

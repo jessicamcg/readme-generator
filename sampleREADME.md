@@ -1,7 +1,7 @@
-# title
+# New title
 
 ## Description
-description
+Detailed description
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,22 +12,24 @@ description
 - [Questions](#questions)
 
 ## Installation
-installation
+Installation instructions
 
 ## Usage
-usage
+Usage instructions
 
 
 ## Contributing
-contribute
+Contribution Guidelines
 
 ## Tests
-test
+test instructions
 
 ## Questions
+If you have any questions, please contact me here:
 https://github.com/jessicamcg
-jessica
+
+jessica@jessica.com
 
 ## License
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
