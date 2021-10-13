@@ -1,7 +1,7 @@
 # title
 
 ## Description
-des
+description
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,21 +12,22 @@ des
 - [Questions](#questions)
 
 ## Installation
-install
+installation
 
 ## Usage
-use
-
-## License
+usage
 
 
 ## Contributing
-cont
+contribute
 
 ## Tests
-inst
+test
 
 ## Questions
-git
-email
+https://github.com/jessicamcg
+jessica
 
+## License
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

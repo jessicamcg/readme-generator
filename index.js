@@ -40,7 +40,19 @@ const questions = [
         type: 'rawlist',
         message: 'Which license is the application covered under?',
         name: 'license',
-        choices: ['MIT','GNU AGPLv3','GNU GPLv3','GNU LGPLv3','Mozilla Public License 2.0','Apache License 2.0','Boost Software License 1.0','The Unlicense']
+        choices: [
+            'Apache License 2.0',
+            'GNU General Public License 3.0',
+            'MIT License',
+            'BSD 2-Clause "Simplified" License',
+            'BSD 3-Clause "new" or "Revised" License',
+            'Boost Software License',
+            'Creative Commons Zero 1.0 Universal',
+            'Eclipse Public License 2.0',
+            'GNU Affero General Public License 3.0',
+            'GNU General Public License 2.0',
+            'Mozilla Public License 2.0',
+            'The Unlicense']
       },
       {
         type: 'input',
@@ -58,7 +70,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    fs.appendFile('sampleREADME.md', generateMarkdown(data), (err) =>
+    fs.writeFile('sampleREADME.md', generateMarkdown(data), (err) =>
        err ? console.error(err) : console.log('Success!'));
 }
 
